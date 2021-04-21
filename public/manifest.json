@@ -1,0 +1,14 @@
+{
+  "name": "React_SSR_Sample",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "type": "image/jpeg",
+      "sizes": "64x64"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#f8f8f8"
+}

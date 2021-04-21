@@ -1,0 +1,229 @@
+html,
+body,
+div#myRoot {
+  width: 100%;
+  margin: 0;
+  font-family: 'Microsoft JhengHei', 'PingFangTC', Arial, sans-serif;
+}
+
+html, body {
+  font-size: 16px;
+  font-size: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #f8f8f8;
+  box-sizing: border-box;
+}
+
+div,
+svg {
+  outline: 0;
+}
+
+p {
+  margin: 0;
+}
+
+div#myRoot {
+  display: table;
+  height: inherit;
+  padding: 50px 0 30px 0;
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none !important;
+}
+
+@media (max-width: 960px) {
+  .hiddenInMobile {
+    display: none !important;
+  }
+}
+
+@media (min-width: 960px) {
+  .hiddenInDesktop {
+    display: none !important;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-bold {
+  font-weight: 500;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.mt-8 {
+  margin-top: 8px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-12 {
+  margin-top: 12px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-grow-0 {
+  flex: 0 0 auto;
+}
+
+.flex-grow-1 {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.row {
+  margin-left: -16px;
+  margin-right: -16px;
+}
+
+.col {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.page,
+.card {
+  background-color: #ffffff;
+  outline: 0;
+}
+
+.page + .page {
+  margin-top: 16px;
+}
+
+.card {
+  padding: 16px;
+}
+
+.media-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.media-contain {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.image-mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.link-without-underline,
+.link-hover-underline {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link-hover-underline:hover {
+  text-decoration: underline;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.special-scrollbar::-webkit-scrollbar {
+  background-color: transparent;
+  height: 8px;
+}
+
+.special-scrollbar:hover::-webkit-scrollbar-thumb {
+  background-color: #c1c1c1;
+}
+
+.special-scrollbar::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 5px;
+}

@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  react-app:
+    container_name: web-react-app
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - /app/node_modules
+      - .:/app
+    ports:
+      - 8100:8100
+    restart: always

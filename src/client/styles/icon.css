@@ -1,0 +1,39 @@
+.v-middle::before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.v-middle > * {
+  vertical-align: middle;
+}
+
+.icon,
+.with-bg,
+.with-bg-cover {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: center center;
+  vertical-align: middle;
+}
+
+.icon,
+.with-bg {
+  background-size: contain;
+}
+
+.with-bg-cover {
+  background-size: cover;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.with-bg,
+.with-bg-cover {
+  width: 100%;
+  height: 100%;
+}
